@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb; // this is for rb 
     private Vector2 moveDirection; // this is a varable for move direction 
     public Animator animator;
-  
+
     void Update()
     {
         animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
         //Phiysics calculations 
         processInputs();
         move();
-        
+
     }
     //this is for the inputs for movment 
     void processInputs()
@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    
+
     void move()
     {
         rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
