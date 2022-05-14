@@ -42,4 +42,10 @@ public class PlayerHealth : MonoBehaviour
         //this will destroy the gameobject that this script is attached to
         Destroy(gameObject);
     }
+    //it is a getter fucntion which gives info to the calling code 
+    public int GetHealth()
+    {
+        //return will give the following info back to the calling code 
+        return currentHealth;
+    }
 }
