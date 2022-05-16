@@ -47,5 +47,6 @@ public class PlayerHealth : MonoBehaviour
     {
         //return will give the following info back to the calling code 
         return currentHealth;
+
     }
 }
