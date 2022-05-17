@@ -23,7 +23,7 @@ public class Hazard : MonoBehaviour
         if(player != null)
         {
             //this means there was a playerhealth script attached to the object we bumped into
-            //which means this object is indead the playyer
+            //which means this object is indead the player
 
 
             // therefore perform our acction
