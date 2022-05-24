@@ -19,6 +19,7 @@ public class PatrolPathEnemy : MonoBehaviour
         }
         else
         {
+     
             if (once == false)
             {
                 once = true;
