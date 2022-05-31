@@ -16,6 +16,18 @@ public class PatrolPathEnemy : MonoBehaviour
         if(transform.position != patrolPoints[currentPointIndex].position)
         {
             transform.position = Vector2.MoveTowards(transform.position, patrolPoints[currentPointIndex].position, speed * Time.deltaTime);
+
+
+            //find out from the rigidbody what our current horizontal and current speeds are 
+            float currentSpeedH = (patrolPoints[currentPointIndex].position - transform.position).x;
+            float currentSpeedV = (patrolPoints[currentPointIndex].position - transform.position).y;
+
+            //get the animator companant that we will be using for settingg our aniamtion
+            Animator ourAnimator = GetComponent<Animator>();
+
+            // tell our animatior what the speeds are
+            ourAnimator.SetFloat("SpeedH", currentSpeedH);
+            ourAnimator.SetFloat("SpeedV", currentSpeedV);
         }
         else
         {
@@ -28,11 +40,20 @@ public class PatrolPathEnemy : MonoBehaviour
             
         }
 
+
     
     }
 
     IEnumerator Wait()
     {
+
+        //get the animator companant that we will be using for settingg our aniamtion
+        Animator ourAnimator = GetComponent<Animator>();
+
+        // tell our animatior what the speeds are
+        ourAnimator.SetFloat("SpeedH", 0);
+        ourAnimator.SetFloat("SpeedV", 0);
+
         yield return new WaitForSeconds(WaitTime);
         if (currentPointIndex + 1 < patrolPoints.Length)
         {
@@ -45,5 +66,4 @@ public class PatrolPathEnemy : MonoBehaviour
         
     }
 
-    
 }
