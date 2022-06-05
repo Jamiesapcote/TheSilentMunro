@@ -548,6 +548,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6696362631239363389, guid: 0e22f318b394c594590ee5d875aee0a1,
         type: 3}
+      propertyPath: shouldReset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696362631239363389, guid: 0e22f318b394c594590ee5d875aee0a1,
+        type: 3}
       propertyPath: scoreDisplay
       value: 
       objectReference: {fileID: 861900823}

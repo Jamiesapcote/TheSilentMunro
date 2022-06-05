@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 06f9c277f5c9941449f346cb3ba804b9
+  - enabled: 1
+    path: Assets/Scenes/IntroductionScene.unity
+    guid: 5700d687f7aa6d343bad1bfea2c7066e
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -32,4 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WinningScene.unity
     guid: cf8cb83c2c0299244be139b0fde1eaf7
+  - enabled: 1
+    path: Assets/Scenes/LosingScene.unity
+    guid: 3a8cff403be10bd40ae4fca828233683
+  - enabled: 1
+    path: Assets/Scenes/TimersUp.unity
+    guid: de1baf51cd74efd46aa80a021b4ba15d
   m_configObjects: {}

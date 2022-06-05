@@ -1,11 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
+   
     //this will be the starting health for the player
    public int startingHealth;
+    public string gameOverScene;
+    Animator animator;
+    public Rigidbody2D rb;
 
     //this will be the players current health and will change during the game
    int currentHealth;
@@ -30,6 +36,7 @@ public class PlayerHealth : MonoBehaviour
         {
             // we call the  kill function to kill the player 
             Kill();
+            
         } 
     }
 
@@ -42,6 +49,11 @@ public class PlayerHealth : MonoBehaviour
     {
         //this will destroy the gameobject that this script is attached to
         Destroy(gameObject);
+
+
+        //load the game over scene
+        SceneManager.LoadScene(gameOverScene);
+        
     }
     //it is a getter fucntion which gives info to the calling code 
     public int GetHealth()
@@ -50,4 +62,5 @@ public class PlayerHealth : MonoBehaviour
         return currentHealth;
 
     }
+   
 }

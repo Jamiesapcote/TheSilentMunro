@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: -10}
-  m_SizeDelta: {x: 437.7827, y: 171.3479}
+  m_AnchoredPosition: {x: -95.284, y: 9.8486}
+  m_SizeDelta: {x: 244.4326, y: 198.634}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &31343386
 MonoBehaviour:
@@ -182,18 +182,21 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
-    m_FontStyle: 1
+    m_FontSize: 14
+    m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 219
-    m_Alignment: 4
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Thanks you for playing my Graded Unit 2 game '
+  m_Text: "  Controls \n  Movment - Forward Press W\n                    Left Press
+    A\n                    Backwards Press S\n                    Right Press D       
+    \n\n  Shooting Vomit Balls - Press J\n\n  Hope you enjoy the game, good luck.   
+    \n                     "
 --- !u!222 &31343387
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -217,7 +220,7 @@ GameObject:
   - component: {fileID: 797402139}
   - component: {fileID: 797402143}
   m_Layer: 5
-  m_Name: Restart
+  m_Name: StartGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -240,8 +243,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11, y: -118}
-  m_SizeDelta: {x: 240.2197, y: 60.8538}
+  m_AnchoredPosition: {x: 0, y: -94}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &797402139
 MonoBehaviour:
@@ -309,7 +312,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: StartScene
+          m_StringArgument: Level1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &797402141
@@ -545,8 +548,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 43}
-  m_SizeDelta: {x: 460.4088, y: 202.2016}
+  m_AnchoredPosition: {x: -89, y: 131.83}
+  m_SizeDelta: {x: 244.4326, y: 62.3314}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1733736606
 MonoBehaviour:
@@ -570,20 +573,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
-    m_FontStyle: 1
+    m_FontSize: 14
+    m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 300
+    m_MinSize: 10
+    m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Well Done for completing the demo
-
-'
+  m_Text: "Hi welcome to The Silent Munro. This game will consist of these controls
+    \n"
 --- !u!222 &1733736607
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -651,10 +653,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 0
+    m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -662,7 +664,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Restart game '
+  m_Text: 'Start Game '
 --- !u!222 &1794414636
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -719,7 +721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
+  m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
