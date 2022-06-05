@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     private bool boosting; // is the power up active or not this is set by true or false 
     private  float moveSpeedOriginal;
 
+    public ProjectileBehavior ProjectilePrefab;
+    public Transform LaunchOffset; 
     private void Start()
     {
         moveSpeedOriginal = moveSpeed;
@@ -32,6 +34,11 @@ public class PlayerMovement : MonoBehaviour
                 boostTimer = 0;
                 boosting = false;
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            Instantiate(ProjectilePrefab, LaunchOffset.position, transform.rotation);
         }
     }
 
