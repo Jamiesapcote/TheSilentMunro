@@ -1,43 +1,52 @@
 fileFormatVersion: 2
-guid: 520686289d23a604e9f7600db85c0915
+guid: d10499b37b4de4a4d9d0830534c27273
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5115497301816814873
-    second: Ethan_shooting_backwards_64px_0
+      213: -7488905705074547035
+    second: Ethan_Forward_animation_Spritesheet_64px_0
   - first:
-      213: -7962228110929694218
-    second: Ethan_shooting_backwards_64px_1
+      213: -7441541814005234973
+    second: Ethan_Forward_animation_Spritesheet_64px_1
   - first:
-      213: 5638305000877643114
-    second: Ethan_shooting_backwards_64px_2
+      213: 5653816918498604743
+    second: Ethan_Forward_animation_Spritesheet_64px_2
   - first:
-      213: 3623558404183655767
-    second: Ethan_shooting_backwards_64px_3
+      213: 7508711132802023920
+    second: Ethan_Forward_animation_Spritesheet_64px_3
   - first:
-      213: 6435889217705869697
-    second: Ethan_shooting_backwards_64px_4
+      213: 5787922204606809815
+    second: Ethan_Forward_animation_Spritesheet_64px_4
   - first:
-      213: -4672310918270976043
-    second: Ethan_shooting_backwards_64px_5
+      213: -6874019255866666919
+    second: Ethan_Forward_animation_Spritesheet_64px_5
   - first:
-      213: -6542135800947175987
-    second: Ethan_shooting_backwards_64px_6
+      213: -1926750194421609052
+    second: Ethan_Forward_animation_Spritesheet_64px_6
   - first:
-      213: -5328033679397416740
-    second: Ethan_shooting_backwards_64px_7
+      213: 4490967230782536588
+    second: Ethan_Forward_animation_Spritesheet_64px_7
   - first:
-      213: 6821912393434635799
-    second: Ethan_shooting_backwards_64px_8
+      213: -9172512186592646819
+    second: Ethan_Forward_animation_Spritesheet_64px_8
   - first:
-      213: -7828996143452290790
-    second: Ethan_shooting_backwards_64px_9
+      213: -8585436642618827056
+    second: Ethan_Forward_animation_Spritesheet_64px_9
   - first:
-      213: -7740561398568369156
-    second: Ethan_shooting_backwards_64px_10
+      213: -361111475405383527
+    second: Ethan_Forward_animation_Spritesheet_64px_10
   - first:
-      213: -7253681739718510992
-    second: Ethan_shooting_backwards_64px_11
+      213: -858409037794212048
+    second: Ethan_Forward_animation_Spritesheet_64px_11
+  - first:
+      213: -1097098751125237156
+    second: Ethan_Forward_animation_Spritesheet_64px_12
+  - first:
+      213: 7681546175578114663
+    second: Ethan_Forward_animation_Spritesheet_64px_13
+  - first:
+      213: 6606120272072421373
+    second: Ethan_Forward_animation_Spritesheet_64px_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,7 +136,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ethan_shooting_backwards_64px_0
+      name: Ethan_Forward_animation_Spritesheet_64px_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6a2ac60ff021890800000000000000
+      internalID: -7488905705074547035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Forward_animation_Spritesheet_64px_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2800ba5255ab890800000000000000
+      internalID: -7441541814005234973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Forward_animation_Spritesheet_64px_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6f33c3884667e40800000000000000
+      internalID: 5653816918498604743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Forward_animation_Spritesheet_64px_3
       rect:
         serializedVersion: 2
         x: 0
@@ -135,20 +207,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91da24461b5edf640800000000000000
-      internalID: 5115497301816814873
+      spriteID: 0f18faf0efc443860800000000000000
+      internalID: 7508711132802023920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ethan_shooting_backwards_64px_1
+      name: Ethan_Forward_animation_Spritesheet_64px_4
       rect:
         serializedVersion: 2
         x: 64
@@ -156,20 +228,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f1f76308bb708190800000000000000
-      internalID: -7962228110929694218
+      spriteID: 7d64f215494d25050800000000000000
+      internalID: 5787922204606809815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ethan_shooting_backwards_64px_2
+      name: Ethan_Forward_animation_Spritesheet_64px_5
       rect:
         serializedVersion: 2
         x: 128
@@ -177,20 +249,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a65de9876884f3e40800000000000000
-      internalID: 5638305000877643114
+      spriteID: 9505fda28e39a90a0800000000000000
+      internalID: -6874019255866666919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ethan_shooting_backwards_64px_3
+      name: Ethan_Forward_animation_Spritesheet_64px_6
       rect:
         serializedVersion: 2
         x: 0
@@ -198,20 +270,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7558f309b27794230800000000000000
-      internalID: 3623558404183655767
+      spriteID: 4adc59218eec245e0800000000000000
+      internalID: -1926750194421609052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ethan_shooting_backwards_64px_4
+      name: Ethan_Forward_animation_Spritesheet_64px_7
       rect:
         serializedVersion: 2
         x: 64
@@ -219,20 +291,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 181002b052fd05950800000000000000
-      internalID: 6435889217705869697
+      spriteID: c8b76b8f6ee135e30800000000000000
+      internalID: 4490967230782536588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ethan_shooting_backwards_64px_5
+      name: Ethan_Forward_animation_Spritesheet_64px_8
       rect:
         serializedVersion: 2
         x: 128
@@ -240,20 +312,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5df774c89fd982fb0800000000000000
-      internalID: -4672310918270976043
+      spriteID: d59243ca3c0b4b080800000000000000
+      internalID: -9172512186592646819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ethan_shooting_backwards_64px_6
+      name: Ethan_Forward_animation_Spritesheet_64px_9
       rect:
         serializedVersion: 2
         x: 0
@@ -261,20 +333,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcd8d28962aa535a0800000000000000
-      internalID: -6542135800947175987
+      spriteID: 0de15137cd66ad880800000000000000
+      internalID: -8585436642618827056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ethan_shooting_backwards_64px_7
+      name: Ethan_Forward_animation_Spritesheet_64px_10
       rect:
         serializedVersion: 2
         x: 64
@@ -282,20 +354,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd0133409950f06b0800000000000000
-      internalID: -5328033679397416740
+      spriteID: 9981520c6031dfaf0800000000000000
+      internalID: -361111475405383527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ethan_shooting_backwards_64px_8
+      name: Ethan_Forward_animation_Spritesheet_64px_11
       rect:
         serializedVersion: 2
         x: 128
@@ -303,20 +375,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71e91838d2d4cae50800000000000000
-      internalID: 6821912393434635799
+      spriteID: 0378a4637815614f0800000000000000
+      internalID: -858409037794212048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ethan_shooting_backwards_64px_9
+      name: Ethan_Forward_animation_Spritesheet_64px_12
       rect:
         serializedVersion: 2
         x: 0
@@ -324,20 +396,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a118f91cc71d95390800000000000000
-      internalID: -7828996143452290790
+      spriteID: c52d7af9f7256c0f0800000000000000
+      internalID: -1097098751125237156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ethan_shooting_backwards_64px_10
+      name: Ethan_Forward_animation_Spritesheet_64px_13
       rect:
         serializedVersion: 2
         x: 64
@@ -345,20 +417,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf34b345b60049490800000000000000
-      internalID: -7740561398568369156
+      spriteID: 76a08115c855a9a60800000000000000
+      internalID: 7681546175578114663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ethan_shooting_backwards_64px_11
+      name: Ethan_Forward_animation_Spritesheet_64px_14
       rect:
         serializedVersion: 2
         x: 128
@@ -366,14 +438,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 076375ea3eeb55b90800000000000000
-      internalID: -7253681739718510992
+      spriteID: dff22600367adab50800000000000000
+      internalID: 6606120272072421373
       vertices: []
       indices: 
       edges: []

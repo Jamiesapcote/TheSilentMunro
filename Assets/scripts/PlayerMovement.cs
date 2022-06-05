@@ -40,6 +40,20 @@ public class PlayerMovement : MonoBehaviour
         {
             Instantiate(ProjectilePrefab, LaunchOffset.position, transform.rotation);
         }
+
+        // get our ridigbody that we'll need to find the physics inforamtioin 
+        Rigidbody2D ourRigidbody = GetComponent<Rigidbody2D>();
+
+        //find out from the rigidbody what our current horizontal and current speeds are 
+        float currentSpeedH = ourRigidbody.velocity.x;
+        float currentSpeedV = ourRigidbody.velocity.y;
+
+        //get the animator companant that we will be using for settingg our aniamtion
+        Animator ourAnimator = GetComponent<Animator>();
+
+        // tell our animatior what the speeds are
+        ourAnimator.SetFloat("SpeedH", currentSpeedH);
+        ourAnimator.SetFloat("SpeedV", currentSpeedV);
     }
 
     private void OnTriggerEnter2D(Collider2D other) // this is whem the player collides with the object 
