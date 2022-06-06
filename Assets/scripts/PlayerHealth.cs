@@ -12,9 +12,34 @@ public class PlayerHealth : MonoBehaviour
     public string gameOverScene;
     Animator animator;
     public Rigidbody2D rb;
+    private bool addHealth; // is the power up active or not this is set by true or false 
 
     //this will be the players current health and will change during the game
-   int currentHealth;
+    int currentHealth;
+
+
+    private void Update()
+    {
+        if (addHealth)
+        {
+           
+            if (currentHealth <= 100) // this is for when to turn off the boost and adding to the timer 
+            {
+                currentHealth = startingHealth;
+                addHealth = false;
+            }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) // this is whem the player collides with the object 
+    {
+        if (other.tag == "AddHealth")// this is seeing if we have collided with the object if so then setting the values to be boosing/true 
+        {
+            addHealth = true;
+            currentHealth = 30;
+            Destroy(other.gameObject);
+        }
+    }
 
     //built in fuction called when the scriot is created 
     //usally when the game starts
