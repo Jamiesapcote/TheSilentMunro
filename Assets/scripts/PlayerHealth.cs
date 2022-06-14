@@ -73,7 +73,7 @@ public class PlayerHealth : MonoBehaviour
     public void Kill()
     {
         //this will destroy the gameobject that this script is attached to
-        Destroy(gameObject);
+       
 
 
         //load the game over scene
