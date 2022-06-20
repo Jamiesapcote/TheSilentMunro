@@ -361,8 +361,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.07, y: 1.61}
-  m_EdgeRadius: 0
+  m_Size: {x: 1.17, y: 1.61}
+  m_EdgeRadius: 0.1
 --- !u!4 &616365056
 Transform:
   m_ObjectHideFlags: 0
@@ -684,6 +684,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6696362631239363386, guid: 0e22f318b394c594590ee5d875aee0a1,
+        type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 861243873}
+    - target: {fileID: 6696362631239363386, guid: 0e22f318b394c594590ee5d875aee0a1,
+        type: 3}
+      propertyPath: gameOverScene
+      value: LosingScene
+      objectReference: {fileID: 0}
     - target: {fileID: 6696362631239363389, guid: 0e22f318b394c594590ee5d875aee0a1,
         type: 3}
       propertyPath: shouldReset
@@ -696,6 +706,12 @@ PrefabInstance:
       objectReference: {fileID: 861900823}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e22f318b394c594590ee5d875aee0a1, type: 3}
+--- !u!50 &861243873 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 6696362631239363367, guid: 0e22f318b394c594590ee5d875aee0a1,
+    type: 3}
+  m_PrefabInstance: {fileID: 861243872}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &861900821
 GameObject:
   m_ObjectHideFlags: 0

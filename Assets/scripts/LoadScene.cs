@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
 {
+    
     public void LoadTargetScene(string sceneToLoad)
     {
-        SceneManager.LoadScene(sceneToLoad);
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene(sceneToLoad);
+        }
+
+       
     }
     
 }
